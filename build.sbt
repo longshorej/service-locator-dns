@@ -14,10 +14,10 @@ val sharedSettings = Seq(
     "-encoding", "UTF-8"),
   homepage := Some(url("https://www.lightbend.com/")),
   developers := List(
-    Developer("lightbend", "Lightbend Contributors", "", url("https://github.com/typesafehub/service-locator-dns"))
+    Developer("lightbend", "Lightbend Contributors", "", url("https://github.com/lightbend/service-locator-dns"))
   ),
   sonatypeProfileName := "com.lightbend",
-  scmInfo := Some(ScmInfo(url("https://github.com/typesafehub/service-locator-dns"), "git@github.com:typesafehub/service-locator-dns.git")),
+  scmInfo := Some(ScmInfo(url("https://github.com/lightbend/service-locator-dns"), "git@github.com:lightbend/service-locator-dns.git")),
   scalaVersion := Version.scala211,
   publishTo := Some(
     if (isSnapshot.value)
